@@ -1,0 +1,18 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code 个人设置
+.vscode/
+
+# 打包生成的临时文件
+build/
+dist/
+*.egg-info/
+
+# 虚拟环境 (如果你在项目里创建了 venv)
+venv/
+.venv/
+
+test.py

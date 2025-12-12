@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "looklookgpu"
+version = "1.0.0"
+description = "A geeky Terminal UI for deep learning training and GPU monitoring."
+readme = "README.md"
+authors = [{name = "YQ157", email = "ywq885233326@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "rich",
+    "psutil",
+    "nvidia-ml-py"
+]
+
+[project.urls]
+Homepage = "https://github.com/YQ157/looklookgpu"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["looklookgpu*"]
